@@ -1,0 +1,100 @@
+/*para testes*/
+.borda{
+	border: 1px solid red;
+}
+/*Configuracoes gerais*/
+	/*Fontes*/
+	/*Links*/
+	a{
+		color: black;
+		text-decoration: none;
+	}
+	#parte1{
+		background: linear-gradient(#f0e5e5,#fffeff);
+	}
+	/*Tipografia*/
+/*Configuracoes no cabecalho*/
+	/*Logotipo*/
+	#logo1{
+		font-weight: 800;
+	}
+	#logo2{
+		font-size: 0.5em;
+		letter-spacing: 0.1em;
+		font-weight: 100;
+	}
+	/*Configuracoes na barra de navegacao*/
+	a.nav-link{
+		font-size: 0.8em;
+		letter-spacing: -0.1em;
+		color: black;
+		border: 1px solid black;
+		font-weight: 500;
+
+	}
+	#barra-de-navegacao{
+		border-bottom: 2px solid #6e6865;
+	}
+	/*Configuracoes em botoes*/
+	/*Configuracoes na barra de pesquisa*/
+/*Configuracoes no corpo*/
+	#texto-principal{
+		font-size: 5em;
+		font-weight: 900;
+		letter-spacing: -0.1em;
+		line-height: 1.2em;
+	}
+	.preco-antigo{
+		text-decoration: line-through;
+	}
+	.selecionado{
+		border: 1px solid black;
+	}
+	#compre{
+		border: none;
+		background: #ffd10b;
+	}
+	#compre:hover{
+		border: none;
+		background:#f2c606;
+		transition: all 0.3s;
+
+	}
+	.texto-botao{
+		font-size: 0.9em;
+		font-weight: 700;
+		letter-spacing: -0.1em;
+	}
+	#lado-esquerdo{
+		border-right:2px solid #6e6865;
+	}
+	#area-de-compra{
+		border-top:2px solid #6e6865;
+	}
+	#area-botao{
+		border-right:2px solid #6e6865;
+	}
+	#container-conteudos{
+		border-bottom:2px solid #6e6865;
+	}
+/*Configuracoes no rodape*/
+
+/*MEDIA QUERIES*/
+@media (max-width: 575.98px) { ... }
+
+@media (max-width: 767.98px) {
+	#lado-esquerdo{
+		border-left:2px solid #6e6865;
+	}
+}
+
+@media (min-width: 991.98px) {
+	#textos{
+		padding: 50px 20px 50px 90px;
+	}
+	
+}
+
+@media (max-width: 1199.98px) { ... }
+
+@media (max-width: 1399.98px) { ... }
